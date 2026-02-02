@@ -1,3 +1,4 @@
-a=input()
-print(a.upper())
-print(a.lower())
+n = int(input())
+arr = list(map(int, input().split()))
+arr.sort(reverse=True)
+print(*arr)

@@ -1,3 +1,5 @@
-a = input()
-b=int(input())
-print(a*b)
+n = int(input())
+power = 1
+while power <= n:
+    print(power, end=" ")
+    power *= 2

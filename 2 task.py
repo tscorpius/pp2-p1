@@ -1,3 +1,2 @@
-a = input()
-b=input()
-print(a,b,sep = "***")
+n = int(input())
+print(n * (n + 1) // 2)

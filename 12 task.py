@@ -1,2 +1,4 @@
-a=input()
-print(a[2:5])
+n = int(input())
+arr = list(map(int, input().split()))
+for x in arr:
+    print(x**2, end=" ")

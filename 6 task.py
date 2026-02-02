@@ -1,3 +1,9 @@
-a=int(input())
-b=int(input())
-print(a**b)
+n = int(input())
+arr = list(map(int, input().split()))
+
+mx = arr[0]
+for x in arr:
+    if x > mx:
+        mx = x
+
+print(mx)
